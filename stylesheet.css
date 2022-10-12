@@ -1,0 +1,34 @@
+body {
+  font-family: Roboto, Futura, Open Sans, Arial, sans-serif;
+}
+
+.dark-bg {
+  background-color: #1f2937;
+}
+
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-img {
+  width: 500;
+  height: auto;
+}
