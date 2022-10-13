@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, Futura, Open Sans, Arial, sans-serif;
+  margin: 0px;
 }
 
 .dark-bg {
@@ -11,6 +12,11 @@ body {
   color: #f9faf8;
 }
 
+.hero-links {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+}
 .hero-links a {
   font-size: 18px;
   color: #e5e7eb;
@@ -23,12 +29,33 @@ body {
   font-weight: bolder;
 }
 
+.hero-main-div {
+  width: 40%;
+}
+
 .hero-secondary {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.hero-img {
-  width: 500;
+.hero-img img{
+  width: 450px;
   height: auto;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 24px 0px;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
 }
