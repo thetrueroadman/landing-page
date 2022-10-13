@@ -60,3 +60,30 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+.random {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+.random-info {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin: 0px auto;
+}
+
+.random-pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
